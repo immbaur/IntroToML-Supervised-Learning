@@ -14312,8 +14312,10 @@ Look at the graph at the bottom left from the cell above(the visualization creat
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
-<p>The AdaBoost Classifier is using the Ensemble Method. The classifier can be described as a sequential learner, where several weaker models are generated sequentially using the training data and mistakes of previous models are learned by their successors. This is called Boosting and by combining all models, we will obtain a strong learner which is our predictive model. [1]</p>
-<p>[1] <a href="https://blog.paperspace.com/adaboost-optimizer/">https://blog.paperspace.com/adaboost-optimizer/</a></p>
+<p>The AdaBoost Classifier is using the Ensemble Method. The classifier can be described as a sequential learner, where several weaker classifier are generated sequentially using the training data and mistakes of previous models are learned by their successors. This is called Boosting and by combining all models, we will obtain a strong learner which is our predictive model. [1]</p>
+<p>A weak classifier is simply a classifier that performs poorly, but performs better than random guessing. A simple example might be classifying a person as male or female based on their height. You could say anyone over 5’ 9” is a male and anyone under that is a female. You’ll misclassify a lot of people that way, but your accuracy will still be greater than 50%. [2]</p>
+<p>[1] <a href="https://blog.paperspace.com/adaboost-optimizer/">https://blog.paperspace.com/adaboost-optimizer/</a>
+[2] <a href="https://mccormickml.com/2013/12/13/adaboost-tutorial/#:~:text=AdaBoost%20is%20a%20popular%20boosting,female%20based%20on%20their%20height">https://mccormickml.com/2013/12/13/adaboost-tutorial/#:~:text=AdaBoost%20is%20a%20popular%20boosting,female%20based%20on%20their%20height</a>.</p>
 
 </div>
 </div>
@@ -14490,13 +14492,13 @@ Final F-score on the testing data: 0.7432
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
 <ol>
-<li>occupation  </li>
-<li>workclass</li>
-<li>age</li>
-<li>education </li>
-<li>native country </li>
+<li>occupation: I think the occupation is an important features becuase the income of different occupation can differ very much </li>
+<li>workclass: I think the workclass is an important features becuase the income of different workclasses can differ very much </li>
+<li>age: I think the age is an important features becuase income gain over time for one and the same occupation can be quite significant</li>
+<li>education:  I think the education is an important features becuase there is definitly a relation between education and future income</li>
+<li>native country: I think the native country is an important features becuase different countries have differnt levels of education</li>
 </ol>
-<p>I ranked the features by what I think has the greatest income range (lowest to highest).</p>
+<p>I ranked the features by what I think has the greatest releation to the income</p>
 
 </div>
 </div>
